@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Users/DAVID/Desktop/GITHUB/procesado1/Procesador2.xst" -ofn "D:/Users/DAVID/Desktop/GITHUB/procesado1/Procesador2.syr" 

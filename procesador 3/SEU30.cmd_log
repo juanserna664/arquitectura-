@@ -1,0 +1,1 @@
+vhdtdtfi -prj procesador6 -o "C:/Users/DELL/Desktop/procesador6-copia/procesador6 - copia/SEU30.vhi" -module SEU30 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work SEU30.vhd 

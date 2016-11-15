@@ -1,0 +1,222 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: pros6.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "pros6.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "pros6"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : pros6
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\windows_manager.vhd" into library work
+Parsing entity <WindowsManager>.
+Parsing architecture <Behavioral> of entity <windowsmanager>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\UC.vhd" into library work
+Parsing entity <ControlUnit>.
+Parsing architecture <Behavioral> of entity <controlunit>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\Sumador.vhd" into library work
+Parsing entity <Sumador>.
+Parsing architecture <Behavioral> of entity <sumador>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\SEU_22.vhd" into library work
+Parsing entity <SEU_22>.
+Parsing architecture <Behavioral> of entity <seu_22>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\SEU30.vhd" into library work
+Parsing entity <SEU30>.
+Parsing architecture <Behavioral> of entity <seu30>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\SEU.vhd" into library work
+Parsing entity <SEU>.
+Parsing architecture <Behavioral> of entity <seu>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\RF.vhd" into library work
+Parsing entity <registerFile>.
+Parsing architecture <arqRegisterFile> of entity <registerfile>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\PSRM.VHD" into library work
+Parsing entity <PSRM>.
+Parsing architecture <Behavioral> of entity <psrm>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\psr.VHD" into library work
+Parsing entity <PSR>.
+Parsing architecture <arqPSR> of entity <psr>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\PC.vhd" into library work
+Parsing entity <PC>.
+Parsing architecture <Behavioral> of entity <pc>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\nPC.vhd" into library work
+Parsing entity <nPC>.
+Parsing architecture <Behavioral> of entity <npc>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\MUX4.vhd" into library work
+Parsing entity <Mux_DataToWr>.
+Parsing architecture <Behavioral> of entity <mux_datatowr>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\MUX3.VHD" into library work
+Parsing entity <muxPCSource>.
+Parsing architecture <arqMuxPCSource> of entity <muxpcsource>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\MUX2.VHD" into library work
+Parsing entity <muxALU>.
+Parsing architecture <arqMuxALU> of entity <muxalu>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\MUX1.VHD" into library work
+Parsing entity <muxRFDest>.
+Parsing architecture <arqMuxRFDest> of entity <muxrfdest>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\IM.vhd" into library work
+Parsing entity <IM>.
+Parsing architecture <Behavioral> of entity <im>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\DatMemory.vhd" into library work
+Parsing entity <DataMemory>.
+Parsing architecture <arqUProcessor> of entity <datamemory>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\ALU.vhd" into library work
+Parsing entity <ALU>.
+Parsing architecture <Behavioral> of entity <alu>.
+Parsing VHDL file "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\pros6.vhd" into library work
+Parsing entity <pros6>.
+Parsing architecture <Behavioral> of entity <pros6>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <pros6> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <IM> (architecture <Behavioral>) from library <work>.
+ERROR:HDLCompiler:1030 - "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\IM.vhd" Line 16: Cannot open file 'memoria.data'.
+Netlist IM(Behavioral) remains a blackbox, due to errors in its contents
+
+Elaborating entity <ALU> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <SEU> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <PC> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <registerFile> (architecture <arqRegisterFile>) from library <work>.
+WARNING:HDLCompiler:92 - "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\RF.vhd" Line 32: registers should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\RF.vhd" Line 33: registers should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\RF.vhd" Line 34: registers should be on the sensitivity list of the process
+
+Elaborating entity <Sumador> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <SEU30> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ControlUnit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <nPC> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <PSRM> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <PSR> (architecture <arqPSR>) from library <work>.
+
+Elaborating entity <muxPCSource> (architecture <arqMuxPCSource>) from library <work>.
+INFO:HDLCompiler:679 - "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\MUX3.VHD" Line 37. Case statement is complete. others clause is never selected
+
+Elaborating entity <muxALU> (architecture <arqMuxALU>) from library <work>.
+
+Elaborating entity <muxRFDest> (architecture <arqMuxRFDest>) from library <work>.
+
+Elaborating entity <Mux_DataToWr> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DataMemory> (architecture <arqUProcessor>) from library <work>.
+WARNING:HDLCompiler:92 - "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\DatMemory.vhd" Line 27: my_ram should be on the sensitivity list of the process
+
+Elaborating entity <WindowsManager> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <SEU_22> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:634 - "C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\pros6.vhd" Line 176: Net <A3> does not have a driver.
+--> 
+
+Total memory usage is 195524 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

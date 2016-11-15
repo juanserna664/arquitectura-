@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="1030" delta="new" >"C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\IM.vhd" Line 16: Cannot open file &apos;<arg fmt="%s" index="1">memoria.data</arg>&apos;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\RF.vhd" Line 32: <arg fmt="%s" index="1">registers</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\RF.vhd" Line 33: <arg fmt="%s" index="1">registers</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\RF.vhd" Line 34: <arg fmt="%s" index="1">registers</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\DatMemory.vhd" Line 27: <arg fmt="%s" index="1">my_ram</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Alejo\Desktop\procesador6-copia\procesador6 - copia\pros6.vhd" Line 176: Net &lt;<arg fmt="%s" index="1">A3</arg>&gt; does not have a driver.
+</msg>
+
+</messages>
+

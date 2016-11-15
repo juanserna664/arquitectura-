@@ -1,0 +1,61 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/pros6_Tb_isim_beh.exe -prj C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/pros6_Tb_beh.prj work.pros6_Tb 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/windows_manager.vhd" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/UC.vhd" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/Sumador.vhd" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/SEU_22.vhd" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/SEU30.vhd" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/SEU.vhd" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/RF.vhd" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/PSRM.VHD" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/psr.VHD" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/PC.vhd" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/nPC.vhd" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/MUX4.vhd" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/MUX3.VHD" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/MUX2.VHD" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/MUX1.VHD" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/IM.vhd" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/DatMemory.vhd" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/pros6.vhd" into library work
+Parsing VHDL file "C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/pros6_Tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 106208 KB
+Fuse CPU Usage: 483 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package numeric_std
+Compiling architecture behavioral of entity IM [im_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity SEU [seu_default]
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture arqregisterfile of entity registerFile [registerfile_default]
+Compiling architecture behavioral of entity Sumador [sumador_default]
+Compiling architecture behavioral of entity SEU30 [seu30_default]
+Compiling architecture behavioral of entity ControlUnit [controlunit_default]
+Compiling architecture behavioral of entity nPC [npc_default]
+Compiling architecture behavioral of entity PSRM [psrm_default]
+Compiling architecture arqpsr of entity PSR [psr_default]
+Compiling architecture arqmuxpcsource of entity muxPCSource [muxpcsource_default]
+Compiling architecture arqmuxalu of entity muxALU [muxalu_default]
+Compiling architecture arqmuxrfdest of entity muxRFDest [muxrfdest_default]
+Compiling architecture behavioral of entity Mux_DataToWr [mux_datatowr_default]
+Compiling architecture arquprocessor of entity DataMemory [datamemory_default]
+Compiling architecture behavioral of entity WindowsManager [windowsmanager_default]
+Compiling architecture behavioral of entity SEU_22 [seu_22_default]
+Compiling architecture behavioral of entity pros6 [pros6_default]
+Compiling architecture behavior of entity pros6_tb
+Time Resolution for simulation is 1ps.
+Waiting for 21 sub-compilation(s) to finish...
+Compiled 45 VHDL Units
+Built simulation executable C:/Users/Alejo/Desktop/procesador6-copia/procesador6 - copia/pros6_Tb_isim_beh.exe
+Fuse Memory Usage: 128268 KB
+Fuse CPU Usage: 982 ms
